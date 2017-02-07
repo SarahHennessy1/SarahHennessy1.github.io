@@ -18,13 +18,10 @@ div {
 }
 
 button {
-	background-color:white;
-	color:black;
-	border: white solid 1px;
+	background-color:red;
+	color:white;
 	font-family: Garamond;
-	position: relative;
-	top: 180px;
-	left: 600px;
+	border: none;
 }
 
 h1 {
