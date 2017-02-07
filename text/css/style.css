@@ -1,0 +1,40 @@
+body {
+	background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 0%, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 48%, rgba(0,85,255,1) 52%, rgba(0,85,255,1) 100%);
+   	overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+
+div {
+	color: white;
+	font-family: Garamond;
+	font-size: 48pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px; 
+	padding: 1px;
+	position: relative;
+	top: 100px;
+}
+
+h1 {
+	color: white;
+	font-family: Garamond;
+	font-size: 48pt;
+	vertical-align: middle; 
+}
+
+.r {
+	position: relative;
+	top: -35px;
+	left: 200px;
+}
+
+.d {
+	position: relative;
+	top: 90px;
+	left: 770px;
+}
+
+
+
