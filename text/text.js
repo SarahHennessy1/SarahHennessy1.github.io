@@ -36,11 +36,23 @@ var quotes = [
 
 ]
 
+var anti = [
+	'There is nothing which I dread so much as a division of the republic into two great parties, each arranged under its leader, and concerting measures in opposition to each other. This, in my humble apprehension, is to be dreaded as the greatest political evil under our Constitution.',
+	'The happiness of society depends so much on preventing party spirit from infecting the common intercourse of life, that nothing should be spared to harmonize and amalgamate the two parties in social circles.',
+	'The alternate domination of one faction over another, sharpened by the spirit of revenge, natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism.',
+
+
+]
+
 function newQuote() {
-		var randomNumber = Math.floor(Math.random() * (quotes.length));
-		document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
 
+function antiQuote() {
+	var randomNumber = Math.floor(Math.random() * (anti.length));
+	document.getElementById('antiDisplay').innerHTML = randomNumber;
+}
 
 
 

@@ -17,6 +17,16 @@ div {
 	top: 100px;
 }
 
+button {
+	background-color:white;
+	color:black;
+	border: white solid 1px;
+	font-family: Garamond;
+	position: relative;
+	top: 180px;
+	left: 600px;
+}
+
 h1 {
 	color: white;
 	font-family: Garamond;
