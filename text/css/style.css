@@ -28,7 +28,11 @@ h1 {
 	color: white;
 	font-family: Garamond;
 	font-size: 48pt;
-	vertical-align: middle; 
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
 }
 
 .r {
