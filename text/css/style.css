@@ -13,8 +13,6 @@ div {
 	vertical-align: middle;
 	line-height: 75px; 
 	padding: 1px;
-	position: relative;
-	top: 100px;
 }
 
 button {
@@ -32,6 +30,7 @@ h1 {
 }
 
 a {
+	color: white;
 	text-decoration: none;
 }
 
@@ -47,5 +46,9 @@ a {
 	left: 770px;
 }
 
+.q {
+	position: relative;
+	top: 100px;
+}
 
 
