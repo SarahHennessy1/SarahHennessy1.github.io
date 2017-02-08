@@ -1,0 +1,267 @@
+div {
+	width: 100px;
+	margin-bottom: 30px;
+}
+
+#one {
+	border: red groove 200px ;
+	height: 60px
+}
+
+#two {
+	border:red groove 100px ;
+	height: 60px;
+}
+
+#three {
+	border:red groove 50px ;
+	height: 60px
+}
+
+#four {
+	border:red groove 10px ;
+	height: 60px;
+}
+
+#five {
+	border:red dashed 210px ;
+	height: 60px;
+}
+
+#six {
+	border:red dashed 10px ;
+	height: 60px;
+}
+
+#seven {
+	border:red dashed 20px ;
+	height: 10px;
+}
+
+#eight {
+	border:red dotted 10px ;
+	height: 100px;
+}
+
+#nine {
+	border:red dotted 100px ;
+	height: 60px;
+}
+
+#ten {
+	border:red dotted 5px ;
+	height: 5px;
+}
+
+#eleven {
+	border: red groove 200px ;
+	height: 0px
+}
+
+#twelve {
+	border:red groove 9px ;
+	height: 0px;
+}
+
+#thirteen {
+	border:red groove 20px ;
+	height: 0px;
+}
+
+#fourteen {
+	border:red double 10px ;
+	height: 60px;
+}
+
+#fifteen {
+	border:red double 210px ;
+	height: 60px;
+}
+
+#sixteen {
+	border:red double 10px ;
+	height: 0px;
+}
+
+#seventeen {
+	border:red outset 210px ;
+	height: 60px;
+}
+
+#eighteen {
+	border:red outset 210px ;
+	height: 0px;
+}
+
+#nineteen {
+	border:red outset 10px ;
+	height: 60px;
+}
+
+#twenty {
+	border:red outset 50px ;
+	height: 100px;
+}
+
+#twentyone {
+	border:red inset 50px ;
+	height: 10px;
+}
+
+#twentytwo {
+	border:red ridge 50px ;
+	height: 100px;
+}
+
+#twentythree {
+	border:red ridge 200px ;
+	height: 100px;
+}
+
+#twentyfour {
+	border:red ridge 100px ;
+	height: 10px;
+}
+
+#twentyfive {
+	border:red ridge 1px ;
+	height: 0px;
+}
+
+#twentysix {
+	border:red ridge 5px ;
+	height: 0px;
+}
+
+#twentyseven {
+	border:red ridge 100px ;
+	height: 00px;
+}
+
+#twentyeight {
+	border:red ridge 50px ;
+	height: 0px;
+}
+
+#twentynine {
+	border:red double 50px ;
+	height: 100px;
+}
+
+#thirty {
+	border:red double 1px ;
+	height: 100px;
+}
+
+#thirtyone {
+	border:red double 60px ;
+	height: 0px;
+}
+
+#thirtytwo {
+	border:red double 10px ;
+	height: 10px;
+}
+
+#thirtythree {
+	border:red solid 50px ;
+	height: 100px;
+}
+
+#thirtyfour {
+	border:red solid 5px ;
+	height: 100px;
+}
+
+#thirtyfive {
+	border:red dashed 5px ;
+	height: 10px;
+}
+
+#thirtysix {
+	border:red dashed 5px ;
+	height: 0px;
+}
+
+#thirtyseven {
+	border:red solid 1px ;
+	height: 1px;
+}
+
+#thirtyeight {
+	border:red solid 10px ;
+	height: 10px;
+}
+
+#thirtynine {
+	border:red dotted 5px ;
+	height: 0px;
+}
+
+#forty {
+	border:red dotted 50px ;
+	height: 100px;
+}
+
+#fortyone {
+	border:red dotted 5px ;
+	height: 100px;
+}
+
+#fortytwo {
+	border:red dotted 5px ;
+	height: 1px;
+}
+
+#fortythree {
+	border:red dashed 5px ;
+	height: 1px;
+}
+
+#fortyfour {
+	border:red groove 5px ;
+	height: 100px;
+}
+
+#fortyfive {
+	border:red outset 50px ;
+	height: 1000px;
+}
+
+#fortysix {
+	border:red dotted 10px ;
+	height: 900px;
+}
+
+#fortyseven {
+	border:red solid 1px ;
+	height: 1000px;
+}
+
+#fortyeight {
+	border:red groove 50px ;
+	height: 1000px;
+}
+
+#fortynine {
+	border:red ridge 5px ;
+	height: 1000px;
+}
+
+#fifty {
+	border:red double 50px ;
+	height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
