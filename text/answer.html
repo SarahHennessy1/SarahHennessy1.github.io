@@ -10,25 +10,21 @@
 Incorrect!
 <br>
 <br>
-<a href="javascript:openSite()">Try Again!</a>
-<script type="text/javascript">
-var links = [
-    "sarahhennessy1.github.io/text/alt.html",
-	"sarahhennessy1.github.io/text/index.html"]
-
-           var openSite = function() {
-              var randIdx = Math.random() * links.length;
-              randIdx = parseInt(randIdx, 10);
-              // construct the link to be opened
-              var link = 'http://' + links[randIdx];
-
-     return link;
-    };
-document.getElementById("link").innerHTML = openSite();
-
-</script>
-
+<a href="#" onClick="goSomewhere(); return false;">Try Again!</a>
 </div>
+
+<script type="text/javascript">
+
+var urls = [
+	"index.html",
+	"alt.html",
+]
+
+function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
 
 </body>
 </html>
