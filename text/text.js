@@ -52,8 +52,11 @@ function newQuote() {
 
 function antiQuote() {
 	var randomNumber = Math.floor(Math.random() * (anti.length));
-	document.getElementById('antiDisplay').innerHTML = randomNumber;
+	document.getElementById('antiDisplay').innerHTML = anti[randomNumber];
 }
+
+
+
 
 
 

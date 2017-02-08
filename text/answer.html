@@ -9,12 +9,26 @@
 
 Incorrect!
 <br>
-<a href="index.html">Try Again</a>
+<br>
+<a href="javascript:openSite()">Try Again!</a>
+<script type="text/javascript">
+var links = [
+    "sarahhennessy1.github.io/text/alt.html",
+	"sarahhennessy1.github.io/text/index.html"]
 
-<a href="alt.html">Alternative</a>
+           var openSite = function() {
+              var randIdx = Math.random() * links.length;
+              randIdx = parseInt(randIdx, 10);
+              // construct the link to be opened
+              var link = 'http://' + links[randIdx];
+
+     return link;
+    };
+document.getElementById("link").innerHTML = openSite();
+
+</script>
 
 </div>
-
 
 </body>
 </html>
