@@ -41,8 +41,8 @@ var anti = [
 	'There is nothing which I dread so much as a division of the republic into two great parties, each arranged under its leader, and concerting measures in opposition to each other. This, in my humble apprehension, is to be dreaded as the greatest political evil under our Constitution.',
 	'The happiness of society depends so much on preventing party spirit from infecting the common intercourse of life, that nothing should be spared to harmonize and amalgamate the two parties in social circles.',
 	'The alternate domination of one faction over another, sharpened by the spirit of revenge, natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism.',
-
-
+	'It is the steady abuse of power in other governments which renders that of opposition always the popular party.',
+	'I am no believer in the amalgamation of parties, nor do I consider it as either desirable or useful for the public; but only that, like religious differences, a difference in politics should never be permitted to enter into social intercourse or to disturb its friendships, its charities or justice. In that form, they are censors of the conduct of each other and useful watchmen for the public.',
 ]
 
 function newQuote() {
