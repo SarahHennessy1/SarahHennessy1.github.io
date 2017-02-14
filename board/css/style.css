@@ -1,0 +1,35 @@
+.square {
+	height: 10vw;
+	width: 10%;
+	position: relative;
+	float: left;
+	margin: none;
+	padding: none;
+}
+
+.black {
+	background-color: black;
+}
+
+.red {
+	background-color: red;
+}
+
+.check {
+	height: 7vw;
+	width: 7%;
+	border-radius: 50%;
+	position: fixed;
+	margin: 1.5vw;
+	background-color: white;
+}
+
+.check:hover{
+	cursor: pointer;
+}
+
+.check:active {
+	background-image: url('../king.png');
+	background-size: 100%;
+	cursor: crosshair;
+}

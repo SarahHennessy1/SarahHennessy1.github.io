@@ -1,0 +1,79 @@
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 10px;
+	float: left;
+}
+
+.special {
+	width: 400px;
+}
+
+.smalldot {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 40px;
+	top: 20px;
+
+}
+
+.last {
+	clear: both;
+}
+/*
+.one{
+	position: absolute;
+	left:10px;
+}
+
+.two {
+	position: absolute;
+	left: 220px;
+}
+
+.three {
+	position: absolute;
+	left: 430px;
+}
+
+.four {
+	position: absolute;
+	left: 640px;
+}
+
+.five {
+	position: absolute;
+	left: 850px;
+}
+
+.six {
+	position: absolute;
+	left: 1060px;
+}
+
+.special {
+	position: relative;
+	top:-100px;
+	left:400px;
+}
+
+.special {
+	position: fixed;
+	top :50px;
+	left: 600px;
+}
+
+
+.dot {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.dot .dot {
+	color: red;
+}

@@ -1,33 +1,17 @@
 <html>
 <head>
 	<title>Text</title>
+
+<script src="text.js"></script>
 </head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<body>
+<body onload="answerQuote('get');">
 
 
 <meta charset="utf-8">
-
 <div>
-
-The Answer is
-<br>
-<br>
-<a href="#" onClick="goSomewhere(); return false;">--></a>
-</div>
-
-<script type="text/javascript">
-
-var urls = [
-	"index.html",
-	"alt.html",
-]
-
-function goSomewhere() {
-        var url = urls[Math.floor(Math.random()*urls.length)];
-        window.location = url; // redirect
-    }
-</script>
-
+The Answer is</div>
+<div id="answerDisplay" class="a"></div>
+<div><a href="#" onClick="goSomewhere(); return false;"><img src="arrow.png"></a></div>
 </body>
 </html>

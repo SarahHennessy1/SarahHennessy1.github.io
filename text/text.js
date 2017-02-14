@@ -45,6 +45,49 @@ var anti = [
 	'I am no believer in the amalgamation of parties, nor do I consider it as either desirable or useful for the public; but only that, like religious differences, a difference in politics should never be permitted to enter into social intercourse or to disturb its friendships, its charities or justice. In that form, they are censors of the conduct of each other and useful watchmen for the public.',
 ]
 
+var answer = [
+	'Woodrow Wilson, the 28th President of the United States, Democrat',
+	'Martin Van Buren, the 8th President of the United States, Democrat',
+	'Lyndon B. Johnson, the 36th President of the United States, Democrat',
+	'Andrew Jackson,the 7th President of the United States, Democrat',
+	'William McKinley, the 25th President of the United States, Republican',
+	'Franklin D. Roosevelt, the 32nd President of the United States, Democrat',
+	'Abraham Lincoln, the 16th President of the United States, Republican',	
+	'John F. Kennedy, the 35th President of the United States, Democrat',
+	'Herbert Hoover, the 31st President of the United States, Republican',
+	'George H.W. Bush, the 41st President of the United States, Republican',
+	'Rutherford B. Hayes, the 19th President of the United States, Republican',
+	'Ronald Reagan, the 40th President of the United States, Republican',
+	'Benjamon Harrison, the 23rd President of the United States, Republican',
+	'Andrew Jackson, the 7th President of the United States, Democrat',
+	'Martin Van Buren, the 8th President of the United States, Democrat',
+	'James K. Polk, the 11th President of the United States, Democrat',
+	'Abraham Licoln, the 16th President of the United States, Republican',
+	'Uylsses S. Grant, the 18th President of the United States, Republican',
+	'Rutherford B. Hayes, the 19th President of the United States, Republican',
+	'James Garfield, the 20th President of the United States, Republican',
+	'Chester Arthur, the 21st President of the United States, Republican',
+	'Grover Cleveland, the 22nd President of the United States, Democrat',
+	'William McKinley, the 25th President of the United States, Republican',
+	'Theodore Roosevelt, the 26th President of the United States, Republican',
+	'William Taft, the 27th President of the United States, Republican',
+	'Woodrow Wilson, the 28th President of the United States, Democrat',
+	'Warren G. Harding, the 29th President of the United States, Republican',
+	'Calvin Coolidge, the 30th President of the United States, Republican',
+	'Herbert Hoover, the 31st President of the United States, Republican',
+	'Franklin D. Roosevelt, the 32nd President of the United States, Democrat',
+	'Harry S. Truman, the 33rd President of the United States, Democrat',
+	'Barack Obama, the 44th President of the United States, Democrat',
+]
+
+
+
+var urls = [
+	"index.html",
+	"alt.html",
+]
+
+
 function newQuote() {
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
@@ -55,7 +98,15 @@ function antiQuote() {
 	document.getElementById('antiDisplay').innerHTML = anti[randomNumber];
 }
 
+function answerQuote() {
+	var randomNumber = Math.floor(Math.random() * (answer.length));
+	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
+}
 
+function goSomewhere() {
+    var url = urls[Math.floor(Math.random()*urls.length)];
+   	window.location = url;
+}
 
 
 
