@@ -108,9 +108,12 @@ function answerQuote() {
 	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
 }
 
-$("answer.html").attr("href", function(i, href) {
-  return href + 'newQuote';
-});
+
+var url = "answer.html"+Math.random()
+
+
+
+
 
 
 
