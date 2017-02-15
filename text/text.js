@@ -104,16 +104,9 @@ function goSomewhere() {
 }
 
 function answerQuote() {
-	var randomNumber = Math.floor(Math.random() * (answer.length));
+	var randomNumber = document.select();
 	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
 }
-
-
-var url = "answer.html"+Math.random()
-
-
-
-
 
 
 
