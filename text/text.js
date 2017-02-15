@@ -108,6 +108,12 @@ function answerQuote() {
 	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
 }
 
-$("#answer").attr("href", "#100")
+$("answer.html").attr("href", function(i, href) {
+  return href + 'newQuote';
+});
+
+
+
+
 
 
