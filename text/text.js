@@ -108,7 +108,7 @@ function answerQuote() {
 	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
 }
 
-$("a").attr("href", "index.html")
+$("a").attr("href", "sarahhennessy.github.io")
 
 
 
