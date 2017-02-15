@@ -98,16 +98,17 @@ function antiQuote() {
 	document.getElementById('antiDisplay').innerHTML = anti[randomNumber];
 }
 
-function answerQuote() {
-	var randomNumber = Math.floor(Math.random() * (answer.length));
-	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
-}
-
 function goSomewhere() {
     var url = urls[Math.floor(Math.random()*urls.length)];
    	window.location = url;
 }
 
+function answerQuote() {
+	var randomNumber = Math.floor(Math.random() * (answer.length));
+	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
+}
+
+$("a").attr("href", "index.html")
 
 
 
