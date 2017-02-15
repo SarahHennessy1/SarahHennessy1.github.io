@@ -1,5 +1,3 @@
-
-
 var quotes = [
 	'I would rather belong to a poor nation that was free than to a rich nation that had ceased to be in love with liberty.',
 	'It\'s easier to do a job right, than to explain why you didn\'t.',
@@ -38,11 +36,13 @@ var quotes = [
 ]
 
 var anti = [
-	'There is nothing which I dread so much as a division of the republic into two great parties, each arranged under its leader, and concerting measures in opposition to each other. This, in my humble apprehension, is to be dreaded as the greatest political evil under our Constitution.',
-	'The happiness of society depends so much on preventing party spirit from infecting the common intercourse of life, that nothing should be spared to harmonize and amalgamate the two parties in social circles.',
-	'The alternate domination of one faction over another, sharpened by the spirit of revenge, natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism.',
-	'It is the steady abuse of power in other governments which renders that of opposition always the popular party.',
-	'I am no believer in the amalgamation of parties, nor do I consider it as either desirable or useful for the public; but only that, like religious differences, a difference in politics should never be permitted to enter into social intercourse or to disturb its friendships, its charities or justice. In that form, they are censors of the conduct of each other and useful watchmen for the public.',
+	'There is nothing which I dread so much as a division of the republic into two great parties, each arranged under its leader, and concerting measures in opposition to each other. This, in my humble apprehension, is to be dreaded as the greatest political evil under our Constitution. - John Adams',
+	'The happiness of society depends so much on preventing party spirit from infecting the common intercourse of life, that nothing should be spared to harmonize and amalgamate the two parties in social circles. - Thomas Jefferson ',
+	'The alternate domination of one faction over another, sharpened by the spirit of revenge, natural to party dissension, which in different ages and countries has perpetrated the most horrid enormities, is itself a frightful despotism. - George Washington',
+	'It is the steady abuse of power in other governments which renders that of opposition always the popular party. -Thomas Jefferson',
+	'I am no believer in the amalgamation of parties, nor do I consider it as either desirable or useful for the public; but only that, like religious differences, a difference in politics should never be permitted to enter into social intercourse or to disturb its friendships, its charities or justice. In that form, they are censors of the conduct of each other and useful watchmen for the public. -Thomas Jefferson',
+	'I can scarcely contemplate a more incalculable evil than the breaking of the Union into two or more parts. -Thomas Jefferson',
+	'If we keep together we shall be safe, and when error is so apparent as to become visible to the majority, they will correct it. -Thomas Jefferson'
 ]
 
 var answer = [
@@ -104,9 +104,16 @@ function goSomewhere() {
 }
 
 function answerQuote() {
-	var randomNumber = document.select();
-	document.getElementById('answerDisplay').innerHTML = answer[randomNumber];
+	var match = window.location.hash.match(/^#?(.*)$/)[1];
+	document.getElementById('answerDisplay').innerHTML = answer[match];
 }
+
+
+
+
+
+
+
 
 
 
