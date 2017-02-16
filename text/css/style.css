@@ -12,7 +12,7 @@ div {
 	text-align: left;
 	vertical-align: middle;
 	line-height: 40px; 
-	padding: 80px;
+	padding: 8%;
 
 }
 
@@ -36,7 +36,9 @@ a {
 }
 
 img {
-	height: 60px;
+	width: 80px;
+	position: relative;
+	top: 130px;
 }
 
 .a {
@@ -49,7 +51,7 @@ img {
     bottom: 0;
     left: 0;
     position: fixed;
-    right: 600px;
+    right: 50%;
     text-align: center;
 }
 
@@ -58,7 +60,7 @@ img {
     left: 0;
     position: fixed;
     right: 0;
-    left: 600px;
+    left: 50%;
     text-align: center;
 }
 
@@ -66,3 +68,5 @@ img {
 	position: relative;
 	top: 100px;
 }
+
+
