@@ -16,14 +16,16 @@ div {
 }
 
 h1 {
-	color: red;
+	color: black;
+	-webkit-text-stroke: 1px red;
 	font-size: 40pt;
 	text-align: center;
 	line-height: 50px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 a {
+	font-family: itc;
 	text-decoration: none;
 	color: white;
 	line-height: 50px;
@@ -35,6 +37,11 @@ a {
 @font-face {
 	font-family: "Benguiat ITC W01 Bold Cn";
 	src: url(../main_page/stranger.ttf);
+}
+
+@font-face {
+	font-family: "itc";
+	src: url(../main_page/ITC.otf);
 }
 
 
