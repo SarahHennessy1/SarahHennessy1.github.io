@@ -1,5 +1,4 @@
 var pic = [
-	"image/amelie.png",
 	"image/bastards.jpg",
 	"image/blow.png",
 	"image/break.png",
@@ -31,11 +30,16 @@ var pic = [
 	"image/tene.png",
 	"image/trap.jpg",
 	"image/vertigo.jpg",
+	"image/amelie.png",
 ]
-
-window.onload = choosePic;
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * pic.length);
      document.getElementById("myPicture").src = pic[randomNum];
 }
+
+
+
+
+
+

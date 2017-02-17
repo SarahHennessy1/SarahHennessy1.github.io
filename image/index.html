@@ -2,12 +2,15 @@
 <head>
 	<title>Sarah's Page</title>
 <script type="text/javascript" src="text.js"></script>
+<script>
+window.onload = choosePic;
+</script>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="choosePic('get');">
 <div>
 <h1>Random Film Still:</h1>
- <img src="image/amelie.png" id="myPicture" alt="some image">
+<img id="myPicture">
 
 <a href="../index.html"><img class="a" src="white.png"></a>
 </div>
