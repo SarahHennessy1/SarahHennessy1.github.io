@@ -1,7 +1,8 @@
 
 body {
 	background-image: url("../main_page/star.gif");
-		font-family: Helvetica;
+	font-family: "Benguiat ITC W01 Bold Cn", helvetica, serif;
+
 }
 
 div {
@@ -11,19 +12,32 @@ div {
 	margin-top: 70px;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 400px;
+	height: 500px;
 }
 
 h1 {
-	color: white;
-	font-size: 30pt;
-	padding-left: 20px;
+	color: red;
+	font-size: 40pt;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 2px;
 }
 
 a {
 	text-decoration: none;
-	color: rgba(5,150,250,100);
+	color: white;
 	line-height: 50px;
-	font-size: 28pt;
-	padding-left: 20px;
+	font-size: 20pt;
+	padding-left: 10%;
+	letter-spacing: 1px;
 }
+
+@font-face {
+	font-family: "Benguiat ITC W01 Bold Cn";
+	src: url(../main_page/stranger.ttf);
+}
+
+
+
+
+
