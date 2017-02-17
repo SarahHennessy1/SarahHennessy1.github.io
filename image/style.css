@@ -9,7 +9,7 @@ div {
 	background-color: black;
 	border: white solid .25px;
 	border-radius:2%;
-	margin-top: 40px;
+	margin-top: 70px;
 	margin-left: 5%;
 	margin-right: 5%;
 	height: 500px;
@@ -34,12 +34,10 @@ a {
 	letter-spacing: 1px;
 }
 
-.film {
-	font-size: 10pt;
-	color:red;
-	float: right;
-	margin-right: 5%;
-
+img {
+	margin-left: 25%;
+	width: 50%;
+	max-height: 300px;
 }
 
 @font-face {
@@ -52,7 +50,21 @@ a {
 	src: url(../main_page/ITC.otf);
 }
 
+.a {
+	width: 20px;
+	margin-left: 80%;
+}
 
+
+@media screen and (max-width: 600px) {
+
+img {
+	width: 70%;
+	margin-left:15%;
+	margin-bottom: 0;
+}
+
+}
 
 
 
