@@ -14,3 +14,15 @@ div {
 	position: relative;
  	top: 50px;
 }
+
+
+@media screen and (max-height: 500px) {
+
+div {
+	font-size: 10pt;
+	line-height: 15pt;
+	top: 5%;
+
+}
+
+}

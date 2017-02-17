@@ -44,7 +44,7 @@ img {
 .a {
 	line-height: 45px;
 	position: absolute;
-	top:10%;
+	bottom: 290px;
 }
 
 .r {
@@ -70,6 +70,11 @@ img {
 	right: 2%;
 }
 
+.i {
+	margin-top: 0;
+	padding-top: 5%;
+}
+
 @media screen and (max-width: 600px) {
 
 div {
@@ -86,9 +91,16 @@ h1 {
 
 @media screen and (max-height: 300px) {
 
+.a {
+	line-height: 15px;
+	position: absolute;
+	top: 10%;
+}
+
 div {
 	font-size: 10pt;
 	line-height: 15px; 
+	padding-top: ;
 }
 
 .q {
@@ -96,9 +108,24 @@ div {
 	top: 0;
 }
 
+img {
+	width: 7%;
+	position: fixed;
+	top: 30%;
+	left: 70%;
+}
+
 
 }
 
+@media screen and (max-height: 500px) {
+
+.a {
+	position: fixed;
+	top: 40%;
+}
+
+}
 
 
 
