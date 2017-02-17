@@ -1,0 +1,29 @@
+
+body {
+	background-image: url("../main_page/star.gif");
+		font-family: Helvetica;
+}
+
+div {
+	background-color: black;
+	border: white solid .25px;
+	border-radius:2%;
+	margin-top: 70px;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 400px;
+}
+
+h1 {
+	color: white;
+	font-size: 30pt;
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(5,150,250,100);
+	line-height: 50px;
+	font-size: 28pt;
+	padding-left: 20px;
+}
