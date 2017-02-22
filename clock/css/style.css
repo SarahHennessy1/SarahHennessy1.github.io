@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #F0FFFF;
+  
+}
+
+#background-changer {
+  height: 100%;
+  margin: 0;
+  transition: background 15 linear;
+}
+
+audio {
+  display: none;
+}
+
+iframe {
+  display: none;
+}
+
+.bubble {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+position: absolute;
+top: -200px;
+left: -200px;
+background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+}
+
+body.float-bubbles .bubble {
+  transition: all 1s linear;
+}
+
+
+
+
