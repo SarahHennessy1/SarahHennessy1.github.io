@@ -11,7 +11,7 @@ div {
 	padding: 2%;
 }
 
-img	{
+.first	{
 	width: 40%;
 	margin-top: 3%;
 }
@@ -28,6 +28,17 @@ h2 {
 
 h3 {
 	font-size: 20pt;
+}
+
+img {
+	position: relative;
+	width: 30%;
+
+}
+
+.lemon {
+	margin-left: 15%;
+	width: 32%;
 }
 
 div div {
@@ -64,7 +75,7 @@ h3 {
 	font-size: 10pt;
 }
 
-img {
+img, .lemon, .first {
 	width: 95%;
 	display: block;
 	margin-right: auto;
@@ -88,6 +99,27 @@ img {
 }
 
 }
+
+@media screen and (max-width: 500px) {
+
+div div {
+	width: 90%;
+	position: relative;
+	top: 20%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
