@@ -18,7 +18,7 @@ $(".a, .s, .o").on("click", function(){
 	$(this).toggleClass("wactive");
 	});
 
-$(".b, .e, .h, .i, .k, .u, .w").on("mouseenter", function(){
+$(".b, .e, .i, .k, .u, .w").on("mouseenter", function(){
 //here are the hover instructions
 	$(this).addClass("bfocused");
 	});
