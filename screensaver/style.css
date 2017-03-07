@@ -1,21 +1,69 @@
 body {
 	background-color: black;
 	margin-left: 12%;
+	overflow: hidden;
 }
 
+.flame1 , .flame2 , .flame3 , .flame4 , .flame5 , .flame6 , .flame7 , .flame8{
+	transition: linear;
+	transition-delay: .5s;
+	display: inline-block;
+}
 
-.flame {
-	height: setHeight;
+.flame1 {
+	position: absolute;
+	bottom: 0;
+	right: 80%;
+}
+
+.flame2 {
+	position: absolute;
+	bottom: 0;
+	right: 69.5%;
+}
+
+.flame3 {
+	position: absolute;
+	bottom: 0;
+	right: 59%;
+}
+
+.flame4 {
+	position: absolute;
+	bottom: 0;
+	right: 48.5%;
+}
+
+.flame5 {
+	position: absolute;
+	bottom: 0;
+	right: 38%;
+}
+
+.flame6 {
+	position: absolute;
+	bottom: 0;
+	right: 27.5%;
+}
+
+.flame7 {
+	position: absolute;
+	bottom: 0;
+	right: 17%;
+}
+
+.flame8 {
+	position: absolute;
+	bottom: 0;
+	right: 6.5%;
 }
 
 div {
 	background-color: orange;
 	width: 10%;
 	height: 10%;
-	float: left;
 	margin: 1px;
-	position: relative;
-	top: 70%;
+	margin-bottom: 5%;
 	animation: flames 10s ease infinite;
 }
 
@@ -34,15 +82,14 @@ div {
 }
 
 90% {
-	background-color: red;
-}
-
-100% {
 	background-color: orange;
 }
 
+100% {
+	background-color: ##ba7f00;
 }
 
+}
 
 .gradient {
 	background: -webkit-linear-gradient(top, rgba(255,183,107,1) 0%,rgba(255,167,61,1) 20%,rgba(255,167,61,1) 21%,rgba(255,167,61,1) 21%,rgba(255,124,0,1) 60%,rgba(255,124,0,1) 60%,rgba(252,215,5,1) 91%);
