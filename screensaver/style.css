@@ -1,0 +1,52 @@
+body {
+	background-color: black;
+	margin-left: 12%;
+}
+
+
+.flame {
+	height: setHeight;
+}
+
+div {
+	background-color: orange;
+	width: 10%;
+	height: 10%;
+	float: left;
+	margin: 1px;
+	position: relative;
+	top: 70%;
+	animation: flames 10s ease infinite;
+}
+
+@keyframes flames {
+
+0% {
+	background-color: #ba7f00;
+}
+
+50% {
+	background-color: #d18e00;
+}
+
+70% {
+	background-color: #fcab00;
+}
+
+90% {
+	background-color: red;
+}
+
+100% {
+	background-color: orange;
+}
+
+}
+
+
+.gradient {
+	background: -webkit-linear-gradient(top, rgba(255,183,107,1) 0%,rgba(255,167,61,1) 20%,rgba(255,167,61,1) 21%,rgba(255,167,61,1) 21%,rgba(255,124,0,1) 60%,rgba(255,124,0,1) 60%,rgba(252,215,5,1) 91%);
+}
+
+
+
