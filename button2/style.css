@@ -1,0 +1,47 @@
+body {
+	background-color: #066800;
+	margin: 4%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	overflow: hidden;
+}
+
+.white {
+	background-color: #d0f4cd;
+	width:10%;
+	height: 10%;
+	float: left;
+}
+
+.green {
+	background-color: #2daa23;
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+
+.shamrock {
+	background-image: url(images/shamrock.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.gone {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.finished {
+	background-image: url(images/gold.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	font-family: serif;
+	color:white;
+	font-size: 100%;
+}
+
+
+
+
