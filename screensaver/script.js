@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 function changeHeight() {
-	var firstHeight = Math.floor(Math.random() * 200 + 100);
-	var secondHeight = Math.floor(Math.random() * 200 + 20);
-	var thirdHeight = Math.floor(Math.random() * 200 + 30);
-	var fourthHeight = Math.floor(Math.random() * 200 + 40);
-	var fifthHeight = Math.floor(Math.random() * 200 + 40);
-	var sixthHeight = Math.floor(Math.random() * 200 + 30);
-	var seventhHeight = Math.floor(Math.random() * 200 + 20);
-	var eigthHeight = Math.floor(Math.random() * 200 + 10);
+	var firstHeight = Math.floor(Math.random() * 550 + 10);
+	var secondHeight = Math.floor(Math.random() * 550 + 20);
+	var thirdHeight = Math.floor(Math.random() * 550 + 30);
+	var fourthHeight = Math.floor(Math.random() * 550 + 40);
+	var fifthHeight = Math.floor(Math.random() * 550 + 40);
+	var sixthHeight = Math.floor(Math.random() * 550 + 30);
+	var seventhHeight = Math.floor(Math.random() * 550 + 20);
+	var eigthHeight = Math.floor(Math.random() * 550 + 10);
 
 console.log(firstHeight);
 console.log(secondHeight);
@@ -36,8 +36,16 @@ console.log(eigthHeight);
 	$(".flame8").css({height:eigthHeight});
 };
 
+window.setInterval(changeHeight, 100); 
 
-window.setInterval(changeHeight, 1000); 
+
+
+
+
+
+
+
+
 
 });
 

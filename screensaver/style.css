@@ -10,12 +10,11 @@ div {
 	height: 10%;
 	margin: 1px;
 	margin-bottom: 5%;
-	max-height: 600px;
 }
 
 .flame1 , .flame2 , .flame3 , .flame4 , .flame5 , .flame6 , .flame7 , .flame8{
 	transition: linear;
-	transition-delay: .5s;
+	transition-delay: ;
 	display: inline-block;
 }
 
