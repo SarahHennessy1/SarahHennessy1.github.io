@@ -4,6 +4,15 @@ body {
 	overflow: hidden;
 }
 
+div {
+	background-color: orange;
+	width: 10%;
+	height: 10%;
+	margin: 1px;
+	margin-bottom: 5%;
+	max-height: 600px;
+}
+
 .flame1 , .flame2 , .flame3 , .flame4 , .flame5 , .flame6 , .flame7 , .flame8{
 	transition: linear;
 	transition-delay: .5s;
@@ -14,67 +23,71 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 80%;
+	animation: flames 10s ease infinite;
 }
 
 .flame2 {
 	position: absolute;
 	bottom: 0;
 	right: 69.5%;
+	animation: flames 5s ease infinite;
 }
 
 .flame3 {
 	position: absolute;
 	bottom: 0;
 	right: 59%;
+	animation: flames 20s ease infinite;
 }
 
 .flame4 {
 	position: absolute;
 	bottom: 0;
 	right: 48.5%;
+	animation: flames 15s ease infinite;
 }
 
 .flame5 {
 	position: absolute;
 	bottom: 0;
 	right: 38%;
+	animation: flames 9s ease infinite;
 }
 
 .flame6 {
 	position: absolute;
 	bottom: 0;
 	right: 27.5%;
+	animation: flames 25s ease infinite;
 }
 
 .flame7 {
 	position: absolute;
 	bottom: 0;
 	right: 17%;
+	animation: flames 5s ease infinite;
 }
 
 .flame8 {
 	position: absolute;
 	bottom: 0;
 	right: 6.5%;
-}
-
-div {
-	background-color: orange;
-	width: 10%;
-	height: 10%;
-	margin: 1px;
-	margin-bottom: 5%;
 	animation: flames 10s ease infinite;
 }
+
+.max {
+	height: 500px;
+}
+
 
 @keyframes flames {
 
 0% {
-	background-color: #ba7f00;
+	background-color: #c18007;
 }
 
 50% {
-	background-color: #d18e00;
+	background-color: #ffbf00;
 }
 
 70% {
@@ -82,7 +95,51 @@ div {
 }
 
 90% {
-	background-color: orange;
+	background-color: #e0730d;
+}
+
+100% {
+	background-color: ##ba7f00;
+}
+
+@keyframes red {
+
+0% {
+	background-color: #ba7f00;
+}
+
+50% {
+	background-color: #6b0302;
+}
+
+70% {
+	background-color: #ba0503;
+}
+
+90% {
+	background-color: #e05a06;
+}
+
+100% {
+	background-color: #a33c10;
+}
+
+@keyframes yellow {
+
+0% {
+	background-color: #bc9d01;
+}
+
+50% {
+	background-color: #fce055;
+}
+
+70% {
+	background-color: #ffd711;
+}
+
+90% {
+	background-color: #eac50e;
 }
 
 100% {

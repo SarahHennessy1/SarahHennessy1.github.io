@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
-var firstHeight = Math.floor(Math.random() * 500 + 10);
-var secondHeight = Math.floor(Math.random() * 500 + 20);
-var thirdHeight = Math.floor(Math.random() * 500 + 30);
-var fourthHeight = Math.floor(Math.random() * 500 + 40);
-var fifthHeight = Math.floor(Math.random() * 500 + 40);
-var sixthHeight = Math.floor(Math.random() * 500 + 30);
-var seventhHeight = Math.floor(Math.random() * 500 + 20);
-var eigthHeight = Math.floor(Math.random() * 500 + 10);
+var firstHeight = Math.floor(Math.random() * 200 + 10);
+var secondHeight = Math.floor(Math.random() * 200 + 20);
+var thirdHeight = Math.floor(Math.random() * 200 + 30);
+var fourthHeight = Math.floor(Math.random() * 200 + 40);
+var fifthHeight = Math.floor(Math.random() * 200 + 40);
+var sixthHeight = Math.floor(Math.random() * 200 + 30);
+var seventhHeight = Math.floor(Math.random() * 200 + 20);
+var eigthHeight = Math.floor(Math.random() * 200 + 10);
 
 console.log(firstHeight);
 console.log(secondHeight);
@@ -50,6 +50,9 @@ $(document).ready(function () {
 $(".flame8").css({height:eigthHeight});
 });
 
+$("div").hover(function () {
+	$(this).toggleClass("max")
+});
 
 
 });
