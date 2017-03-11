@@ -1,6 +1,16 @@
 $(document).ready(function() {
 
+function changeMinHeight(){
+	$(".flame").toggleClass("small");
+};
+
+function changeMedHeight() {
+	$(".flame").toggleClass("medium");
+};
+
+
 function changeHeight() {
+
 	var firstHeight = Math.floor(Math.random() * 550 + 10);
 	var secondHeight = Math.floor(Math.random() * 550 + 20);
 	var thirdHeight = Math.floor(Math.random() * 550 + 30);
@@ -9,15 +19,6 @@ function changeHeight() {
 	var sixthHeight = Math.floor(Math.random() * 550 + 30);
 	var seventhHeight = Math.floor(Math.random() * 550 + 20);
 	var eigthHeight = Math.floor(Math.random() * 550 + 10);
-
-console.log(firstHeight);
-console.log(secondHeight);
-console.log(thirdHeight);
-console.log(fourthHeight);
-console.log(fifthHeight);
-console.log(sixthHeight);
-console.log(seventhHeight);
-console.log(eigthHeight);
 
 	$(".flame1").css({height:firstHeight});
 
@@ -36,18 +37,33 @@ console.log(eigthHeight);
 	$(".flame8").css({height:eigthHeight});
 };
 
-window.setInterval(changeHeight, 100); 
 
 
 
+$(".flame").toggleClass("small");
 
 
-
-
-
-
+setInterval(changeHeight, 200);
+setInterval(changeMinHeight, 10000); 
+setInterval(changeMedHeight, 20000);
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

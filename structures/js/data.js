@@ -1,7 +1,13 @@
+// Array
 var words = [ "abjure", "contusion", "discomfit", "inveterate", "modicum", "pernicious", "scurrilous" ];
 
-
+//JSON
+// JavaScript Object Notation
 var singleQuote = { "quote" : "So it goes.", "source" : "Kurt Vonnegut", "year" : 1969 };
+
+// var myVar = 0;
+// var MyArray = []; //square brackets
+// var myJSON = {"name" : "Brian" : "major" : "Design" }; //curly brackets
 
 
 var quotes = [
@@ -31,6 +37,8 @@ var quotes = [
                   "year" : 1776
                 }                
             ];
+
+
 
 
 

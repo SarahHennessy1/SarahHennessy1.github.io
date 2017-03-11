@@ -1,22 +1,119 @@
 body {
+	background: url(../paper.jpg);
 	background-color: #75af7e;
 	margin-top: 1%;
 	margin-left: 7%;
 	margin-right: 7%;
 }
 
-div {
+a {
+	text-decoration: none;
+}
+
+.thing {
+	opacity: 0.5;
+
+}
+
+.back {
 	background-color: #31703b;
 	width: 100%;
 	height: 100%;
+	opacity: 10%;
 }
 
-h1 ,h2 {
-	color: white;
-	text-align: center;
-	padding-top: 2%;
+img {
+	width: 30%;
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	transform: rotate(-15deg);
 }
 
 h2 {
-	font-size: 48pt;
+	color: white;
+	text-align: center;
+	padding-top: 2%;
+	font-size: 30pt;
+}
+
+p {
+	font-family: "celtic";
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	line-height: 170%;
+}
+
+.menu {
+	width: 500px;
+	height: 500px;
+	background: rgba(180,221,180,0.7);
+	border: 1px green solid;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.cat {
+	background-color: rgba(118, 163, 112, 0.6);
+	width: 100%;
+	height: 10%;
+	margin-bottom: 2%;
+	position: relative;
+	top: 15%;
+	font-size: 25pt;
+}
+
+.picker {
+	background-color: rgb(99, 140, 93);
+	font-size: 33pt;
+}
+
+@font-face {
+	font-family: "celtic";
+	src: url(../celtic.ttf);
+}
+
+@media screen and (max-width:900px) {
+
+img {
+	top: 12%;
+	left: -3%;
+}
+
+}
+
+@media screen and (max-width:600px) {
+
+.menu {
+	width: 400px;
+	height: 400px;
+}
+
+img {
+	top: 10%;
+	left: 2%;
+}
+
+}
+
+@media screen and (max-width:479px) {
+
+.menu {
+	width: 200px;
+	height: 200px;
+}
+
+p {
+	font-size: 10pt;
+	line-height: 180%;
+}
+
+
+img {
+	top: 18%;
+	left: 10%;
+}
+
 }

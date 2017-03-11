@@ -74,10 +74,22 @@ div {
 	animation: flames 10s ease infinite;
 }
 
-.max {
-	height: 500px;
+
+.red {
+	background-color: red;
 }
 
+.yellow{
+	background-color: green;
+}
+
+.small {
+	max-height: 200px;
+}
+
+.medium {
+	max-height: 400px;
+}
 
 @keyframes flames {
 
@@ -85,8 +97,16 @@ div {
 	background-color: #c18007;
 }
 
+25% {
+	background-color: #e89e17;
+}
+
 50% {
 	background-color: #ffbf00;
+}
+
+52% {
+	background-color: #aa0e00;
 }
 
 70% {
@@ -97,59 +117,14 @@ div {
 	background-color: #e0730d;
 }
 
-100% {
-	background-color: ##ba7f00;
+92% {
+	background-color: #e2e091;
 }
 
-@keyframes red {
-
-0% {
+100% {
 	background-color: #ba7f00;
 }
 
-50% {
-	background-color: #6b0302;
-}
-
-70% {
-	background-color: #ba0503;
-}
-
-90% {
-	background-color: #e05a06;
-}
-
-100% {
-	background-color: #a33c10;
-}
-
-@keyframes yellow {
-
-0% {
-	background-color: #bc9d01;
-}
-
-50% {
-	background-color: #fce055;
-}
-
-70% {
-	background-color: #ffd711;
-}
-
-90% {
-	background-color: #eac50e;
-}
-
-100% {
-	background-color: ##ba7f00;
-}
-
-}
-
-.gradient {
-	background: -webkit-linear-gradient(top, rgba(255,183,107,1) 0%,rgba(255,167,61,1) 20%,rgba(255,167,61,1) 21%,rgba(255,167,61,1) 21%,rgba(255,124,0,1) 60%,rgba(255,124,0,1) 60%,rgba(252,215,5,1) 91%);
-}
 
 
 
