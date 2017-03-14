@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+
+
 function changeMinHeight(){
 	$(".flame").toggleClass("small");
 };
@@ -37,13 +39,28 @@ function changeHeight() {
 	$(".flame8").css({height:eigthHeight});
 };
 
-
-
-
 $(".flame").toggleClass("small");
 
+var x1 = 2000;
 
-setInterval(changeHeight, 200);
+function callLink(){
+	x1 = x1 - 50;
+	console.log(x1);
+	if(x1 <100){
+		x1 = 100;
+	}
+
+	setTimeout(function(){
+		callLink();
+		changeHeight();
+	}, x1)
+};
+
+setTimeout(function(){
+	callLink();
+	changeHeight();
+}, x1);
+
 setInterval(changeMinHeight, 10000); 
 setInterval(changeMedHeight, 20000);
 

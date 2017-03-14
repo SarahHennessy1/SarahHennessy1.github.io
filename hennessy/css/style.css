@@ -1,13 +1,41 @@
 body {
-	background: url(../paper.jpg);
+	background: url(../images/paper.jpg);
 	background-color: #75af7e;
 	margin-top: 1%;
 	margin-left: 7%;
 	margin-right: 7%;
 }
 
+html {
+	cursor: url(../images/cursor.gif), auto;
+}
+
 a {
 	text-decoration: none;
+}
+
+img {
+	width: 30%;
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	transform: rotate(-15deg);
+}
+
+p, h2 {
+	font-family: "Meath";
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 2%;
+	font-size: 30pt;
+}
+
+p {
+	text-decoration: none;
+	line-height: 140%;
 }
 
 .thing {
@@ -20,29 +48,6 @@ a {
 	width: 100%;
 	height: 100%;
 	opacity: 10%;
-}
-
-img {
-	width: 30%;
-	position: absolute;
-	top: 20%;
-	left: 7%;
-	transform: rotate(-15deg);
-}
-
-h2 {
-	color: white;
-	text-align: center;
-	padding-top: 2%;
-	font-size: 30pt;
-}
-
-p {
-	font-family: "celtic";
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	line-height: 170%;
 }
 
 .menu {
@@ -67,12 +72,17 @@ p {
 
 .picker {
 	background-color: rgb(99, 140, 93);
-	font-size: 33pt;
+	font-size: 30pt;
 }
 
 @font-face {
 	font-family: "celtic";
-	src: url(../celtic.ttf);
+	src: url(../type/celtic.ttf);
+}
+
+@font-face {
+	font-family: "Meath";
+	src: url(../type/MeathFLF.ttf);
 }
 
 @media screen and (max-width:900px) {
