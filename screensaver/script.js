@@ -13,14 +13,14 @@ function changeMedHeight() {
 
 function changeHeight() {
 
-	var firstHeight = Math.floor(Math.random() * 550 + 10);
-	var secondHeight = Math.floor(Math.random() * 550 + 20);
-	var thirdHeight = Math.floor(Math.random() * 550 + 30);
-	var fourthHeight = Math.floor(Math.random() * 550 + 40);
-	var fifthHeight = Math.floor(Math.random() * 550 + 40);
-	var sixthHeight = Math.floor(Math.random() * 550 + 30);
-	var seventhHeight = Math.floor(Math.random() * 550 + 20);
-	var eigthHeight = Math.floor(Math.random() * 550 + 10);
+	var firstHeight = Math.floor(Math.random() * 1050 + 10);
+	var secondHeight = Math.floor(Math.random() * 1050 + 20);
+	var thirdHeight = Math.floor(Math.random() * 1050 + 30);
+	var fourthHeight = Math.floor(Math.random() * 1050 + 40);
+	var fifthHeight = Math.floor(Math.random() * 1050 + 40);
+	var sixthHeight = Math.floor(Math.random() * 1050 + 30);
+	var seventhHeight = Math.floor(Math.random() * 1050 + 20);
+	var eigthHeight = Math.floor(Math.random() * 1050 + 10);
 
 	$(".flame1").css({height:firstHeight});
 

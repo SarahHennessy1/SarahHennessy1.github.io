@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	margin-left: 12%;
 	overflow: hidden;
+	margin-top: 5%;
 }
 
 div {
@@ -16,6 +17,7 @@ div {
 	transition: linear;
 	transition-delay: ;
 	display: inline-block;
+	max-height: 90%;
 }
 
 .flame1 {
@@ -84,11 +86,11 @@ div {
 }
 
 .small {
-	max-height: 200px;
+	max-height: 20%;
 }
 
 .medium {
-	max-height: 400px;
+	max-height: 40%;
 }
 
 @keyframes flames {

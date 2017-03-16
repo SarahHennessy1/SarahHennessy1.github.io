@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(80,80,80);
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#weather {
+  margin-top: 8px;
+  font-size: 44px;
+  width: 100%;
+  text-align: center;
+}
+
+.temp {
+  background-color: white;
+  border: black 1px solid;
+  width: 0;
+  height: 0;
+  margin: 5%;
+  position: relative;
+  float: left;
+}
+
+.feels {
+  background-color: white;
+  border: black 1px dotted;
+  width: 0px;
+  height: 0px;
+  margin: 10%;
+  position: relative;
+  float: right;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
