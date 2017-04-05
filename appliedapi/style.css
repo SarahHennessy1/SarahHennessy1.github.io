@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+	margin-top: 10%;
+}
+
+#face {
+	width: 60%;
+	height: 300px;
+	border: solid 1px white;
+	position: relative;
+	display: block;
+	margin: auto;
+	background-color: tan;
+}
+
+.eyes {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	float: left;
+	border-radius: 50%;
+	margin-left: 5%;
+
+}
+
+.male {
+	border-radius: 30%;
+}
+
+.female {
+	border-radius: 40%;
+}
+
+.bb {
+	border-radius: 50%;
+}
