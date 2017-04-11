@@ -4,11 +4,8 @@ $(document).ready(function() {
 //     $("#hand").css({left:e.pageX, top:e.pageY});
 // });
 
-// $("#push").on("mouseenter", function(){
-// 	$("#arrow").addClass("active");
-// 	});
-
 var number = 0;
+var sound = new Audio("sound.mp3");
 
 $("#push").on("click", function(){
 	// $("#wheel").toggleClass("active");
@@ -21,6 +18,7 @@ $("#push").on("click", function(){
     duration: 2000,
     step: function(now, fx) {
       $(this).css({"transform": "rotate("+now+"deg)"});
+      // sound.play();
     }
   });
 	setTimeout(stopSpin, 2000);
@@ -28,25 +26,37 @@ $("#push").on("click", function(){
 
 $("#push").on("click", function(){
 	$(this).addClass("hide");
+	$(".stop").addClass("pulse");
 	});
 
 $("#active").css("-webkit-animation", "running");	
 
 $(".stop").on("click", function(){
-	// $("#arrow").removeClass("active");
 	$("#push").removeClass("hide");
-	// $("#wheel").removeClass("active");
 	$("#wheel").stop(true).animate;
 	});
 
 function stopSpin() {
-
+	$(".stop").removeClass("pulse");
 	$("#arrow").removeClass("active");
 	$("#push").removeClass("hide");
 	$("#wheel").removeClass("active");
-
+	setTimeout(pickLetter, 1000);
+	setTimeout(drawThat, 1000);
 };
 
-// setTimeout(stopSpin, 1000);
+function drawThat() {
+    $('#simple_sketch').sketch();
+  };
+
+function pickLetter() {
+	$("#wheel").addClass("hide");
+	$(".stop").addClass("hide");
+	$(".end").html("A is for...");
+	$(".draw").removeClass("hide");
+	$(".link").removeClass("hide");
+	// $(".tools").removeClass("hide");
+};
+
 
 });

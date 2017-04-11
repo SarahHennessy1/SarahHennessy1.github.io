@@ -1,8 +1,16 @@
 body {
-	background-color: white;
+	background-color: rgb(237, 255, 254);
 	margin-top: 1.5%;
-	overflow: hidden;
+/*	overflow: hidden;*/
 }
+
+/*.end {
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100%;
+    height:100%;
+    position: relative;
+    float: right;
+}*/
 
 #wheel {
 	width: 45vw;
@@ -11,6 +19,7 @@ body {
 	background-color: green;
 	border: solid 10px yellow;
 	margin: auto;
+ 	box-shadow: 10px 10px 5px gray;
 }
 
 #push {
@@ -31,6 +40,12 @@ body {
 	float: left;
 }
 
+.end {
+	font-size: 5vw;
+	color: black;
+	font-family: helvetica;
+}
+
 .arrow {
 	width: 100%;
 	width: 10vw;
@@ -39,21 +54,25 @@ body {
 	top: -174%;
 }
 
+.pulse {
+	box-shadow: 1px 1px 1px 1px red;
+}
+
 #A {
-	top: 0%;
+	top: -1%;
 	right: -46%;
 }
 
 #B {
-	top: 1%;
+	top: 0%;
 	right: -48%;
 	transform: rotate(10deg);
 }
 
 #C {
-	top: 5%;
+	top: 4%;
 	right: -51%;
-	transform: rotate(20deg);
+	transform: rotate(30deg);
 }
 
 #D {
@@ -101,18 +120,18 @@ body {
 #K {
 	top: 75%;
 	right: -7%;
-	transform: rotate(140deg);
+	transform: rotate(130deg);
 }
 
 #L {
 	top: 82%;
 	right: 8%;
-	transform: rotate(160deg);
+	transform: rotate(150deg);
 }
 
 #M {
-	top: 87%;
-	right: 25%;
+	top: 86%;
+	right: 24%;
 	transform: rotate(160deg);
 }
 
@@ -143,7 +162,7 @@ body {
 #R {
 	top: 60%;
 	right: 20%;
-	transform: rotate(-120deg);
+	transform: rotate(-130deg);
 }
 
 #S {
@@ -166,13 +185,13 @@ body {
 
 #V {
 	top: 15%;
-	right: 56%;
+	right: 58%;
 	transform: rotate(-70deg);
 }
 
 #W {
 	top: 5%;
-	right: 58%;
+	right: 61%;
 	transform: rotate(-50deg);
 }
 
@@ -194,9 +213,24 @@ body {
 	transform: rotate(-10deg);
 }
 
+canvas {
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin-left: 10%;
+	background-color: white;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.link {
+	width: 5vw;
+	height:5vw;
+	position: relative;
+	float:right;
+}
+
 .hide {
 	display: none;
-	border: dashed 10px yellow;
 }
 
 .focused {
