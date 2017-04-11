@@ -1,6 +1,6 @@
 
 body {
-	background-image: url("../main_page/star.gif");
+	background-color: black;
 	font-family: "Benguiat ITC W01 Bold Cn", helvetica, serif;
 
 }
@@ -19,7 +19,8 @@ h1 {
 	color: black;
 	-webkit-text-stroke: 1px red;
 	font-size: 40pt;
-	text-align: center;
+	position: relative;
+	float: right;
 	line-height: 50px;
 	letter-spacing: 3px;
 }
