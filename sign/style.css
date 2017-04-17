@@ -38,12 +38,23 @@ body {
 	bottom: -41%;
 }
 
+#push:hover {
+	background-color: yellow;
+	margin-top: 2%;
+	width: 9.5vw;
+	height: 9.5vw;
+}
+
 .letter , p {
 	font-size: 5vw;
 	color: black;
 	font-family: helvetica;
 	position: relative;
 	float: left;
+}
+
+#wheel:hover {
+	border: solid 15px yellow;
 }
 
 p {
@@ -220,8 +231,15 @@ p {
 
 canvas {
 	background-color: white;
-	cursor: url(images/pencils.png), crosshair;
+	cursor: url(images/pencil.png), crosshair;
 	margin: auto;
+}
+
+.drawing {
+	width: 30%;
+	position: absolute;
+	top: 55%;
+	right: 0%;
 }
 
 .pencil {
@@ -238,17 +256,32 @@ canvas {
 	margin-left: -1.5%;
 }
 
+.down {
+	width: 10vw;
+	height: 10vw;
+	top: 25%;
+	transform: rotate(90deg);
+	position: absolute;
+	left: 90%;
+	margin-top: 1.5%;
+	margin-left: -1.5%;
+}
+
 .hide {
 	display: none;
 }
 
-.focused {
-	background-color: rgb(23, 183, 1);
+.arrow:hover {
+	-webkit-animation:spin 2s linear infinite;
 }
 
-.active {
+.link:hover {
 	-webkit-animation:spin 2s linear infinite;
-    pause: 1;
+}
+
+.tools {
+	float: right; 
+	width: 100px;
 }
 
 .stop {
@@ -258,6 +291,31 @@ canvas {
 	border-radius: 50%;
 	float: right;
 	margin-right: 1.5%;
+	cursor: not-allowed;
+} 
+
+.green {
+	background-color: green;
+	border: solid yellow 5px;
+	border-radius: 50%;
+}
+
+.green:hover {
+	width:11vw;
+	height: 11vw;
+	margin-right: 1%;
+	margin-top: -1%;
+}
+
+.stop:hover {
+	width: 11vw;
+	height: 11vw;
+	margin-right: 1%;
+	margin-top: -1%;
+}
+
+.stop:active {
+	background-color: #DC143C;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
