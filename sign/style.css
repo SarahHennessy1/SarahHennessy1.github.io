@@ -303,8 +303,8 @@ canvas {
 .green:hover {
 	width:11vw;
 	height: 11vw;
-	margin-right: 1%;
-	margin-top: -1%;
+	margin-right: 2%;
+	margin-top: 1%;
 }
 
 .stop:hover {

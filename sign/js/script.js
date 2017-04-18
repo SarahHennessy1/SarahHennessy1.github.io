@@ -111,6 +111,7 @@ function pickLetter() {
 	$(".link").removeClass("hide");
 	$(".drawing").removeClass("hide");
 	$(".down").removeClass("hide");
+	$(".green").removeClass("hide");
 	setTimeout(newLetter, 100);
 	 sizeCanvas();
 };
