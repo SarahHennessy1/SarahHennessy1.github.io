@@ -1,7 +1,7 @@
 $(document).ready(function() {
 var people = "people/2";
 var planets = "planets/1";
-var url = "http://swapi.co/api/" + people ;
+var url = "https://swapi.co/api/" + people ;
 
 
 $.getJSON(url, function(data) { 
