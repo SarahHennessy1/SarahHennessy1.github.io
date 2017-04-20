@@ -1,26 +1,60 @@
+html , body {
+	padding: none;
+	margin: none;
+}
+
 body {
 	background-color: black;
 	margin-top: 10%;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: "Starjedi";
+	src: url(../Starjedi.ttf);
 }
 
 #face {
 	width: 60%;
 	height: 300px;
 	border: solid 1px white;
-	position: relative;
+	position: absolute;
 	display: block;
-	margin: auto;
+	right: 20%;
+	top: 20%;
 	background-color: tan;
 }
 
 .eyes {
-	width: 30px;
-	height: 30px;
-	position: relative;
-	float: left;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 30%;
 	border-radius: 50%;
-	margin-left: 5%;
+	border: black solid 1px;
+	margin-right: -1%;
+}
 
+.nameDisplay {
+	font-family: "Starjedi";
+	color: white;
+	font-family: helvetica; 
+	position: absolute;
+	top: 80%;
+	right: 45%;
+	font-size: 300%;
+}
+
+.hazel {
+	color: green;
+}
+
+#one {
+	right: 38%;
+}
+
+#two {
+	right: 60%;
 }
 
 .male {
@@ -34,3 +68,41 @@ body {
 .bb {
 	border-radius: 50%;
 }
+
+@media screen and (max-width: 850px) {
+
+#face {
+	top: 10%;
+}
+
+.eyes {
+	width: 45px;
+	height: 45px;
+	top: 20%;
+	margin-right: -3%;
+}
+
+.nameDisplay {
+	right: 40%;
+}
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+.eyes {
+	width: 30px;
+	height: 30px;
+	top: 20%;
+	margin-right: -3%;
+}
+
+.nameDisplay {
+	right: 35%;
+}
+
+
+}
+
+

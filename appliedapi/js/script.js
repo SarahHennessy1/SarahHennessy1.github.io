@@ -1,5 +1,8 @@
 $(document).ready(function() {
-var people = "people/2";
+
+var randomNumber = Math.floor(Math.random() * 87);
+
+var people = "people/" + randomNumber;
 var planets = "planets/1";
 var url = "https://swapi.co/api/" + people ;
 
@@ -22,20 +25,23 @@ $.getJSON(url, function(data) {
 	$(".eyes").css("background-color",eye_color);
 	$("#face").css("background-color",skin_color);
 
+	$(".nameDisplay").html(name);
+
 	if ( gender == "male") {
 		$("#face").addClass("male");
 	};
+	
 	if ( gender == "female") {
 		$("#face").addClass("female");
+	};
+
+	if ( eye_color == "hazel") {
+		$("#face").addClass("hazel");
 	};
 
 	if ( name == "bb8") {
 		$("#face").addClass("bb");
 	};
-
-	// if ( eye_color == yellow ) {
-	// 	$(".eyes").addClass("yellow");
-	// }
 
 });
 
