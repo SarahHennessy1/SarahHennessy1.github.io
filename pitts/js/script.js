@@ -9,21 +9,22 @@ $("h1").on("mouseout", function(){
 	$(this).removeClass("hover");
 	});
 
-$(".link1").on("mouseenter", function(){
+$(".link1, .link2, .link3").on("mouseenter", function(){
 	$(this).addClass("hover");
 	});
 
-$(".link1").on("mouseout", function(){
+$(".link1, .link2, .link3").on("mouseout", function(){
 	$(this).removeClass("hover");
 	});
 
-$(".link2").on("mouseenter", function(){
-	$(this).addClass("hover");
+$(".reveal1").on("click", function(){
+	$(".link1").toggleClass("hide");
 	});
 
-$(".link2").on("mouseout", function(){
-	$(this).removeClass("hover");
+$(".reveal2").on("click", function(){
+	$(".link2").toggleClass("hide");
 	});
+
 
 
 

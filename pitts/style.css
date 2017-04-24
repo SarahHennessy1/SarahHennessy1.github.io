@@ -5,7 +5,7 @@ body {
 h1 {
 	font-family: 'Roboto';
 	font-weight: 400;
-	font-size: 9pt;
+	font-size: 20px;
 	letter-spacing: 3pt;
 }
 
@@ -16,14 +16,15 @@ h1 {
 h2 {
 	font-family: 'Roboto';
 	font-weight: 700;
-	font-size: 2vw;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 p {
 	font-family: 'Roboto';
 	font-weight: 400;
-	font-size: 2vw;
-	line-height: 170%;
+	font-size: 15px;
+/*	line-height: 170%;*/
 }
 
 a {
@@ -31,12 +32,36 @@ a {
 	color: black;
 }
 
-.hover {
-	background-color: rgb(201, 201, 201);
-	width: 25%;
+.hide {
+	display: none;
+	position: absolute;
+	bottom: 100%;
 }
 
+.hover {
+	background-color: rgb(201, 201, 201);
+	width: 22%;
+}
 
+.noClick {
+	cursor: auto;
+}
+
+@media screen and (max-width: 1000px) {
+
+.hover {
+	width: 40%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.hover {
+	width: 100%;
+}
+
+}
 
 
 
