@@ -8,7 +8,7 @@ $("img").on("mouseout", function(){
 	$(this).removeClass("pick");
 	});
 
-$(".1, .2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .131, .13, .14, .15, .16, .17, .18, .19, .20, .21, .22, .23, .24, .25, .26, .27, .28, .29, .30, .31, .32, .33, .34, .35, .36, .37, .38 ").on("click", function(){
+$(".1, .2, .3, .4, .5, .6, .7, .8, .9, .10, .11, .12, .131, .13, .14, .15, .16, .17, .18, .19, .20, .21, .22, .23, .24, .25, .26, .27, .28, .29, .30, .31, .32, .33, .34, .35, .36, .37, .38, .39 ").on("click", function(){
 	$(this).addClass("reveal");
 	$(".blur").removeClass("hide");
 	console.log("check");
@@ -26,8 +26,8 @@ $("img").on("click", function(){
 });
 
 function getQuest() {
-	// $(".reveal").addClass("question");
-	$(".reveal").addClass("hide");
+	$(".reveal").addClass("question");
+	// $(".reveal").addClass("hide");
 	$(".question").removeClass("hide")
 	console.log("HAPPENING");
 };
