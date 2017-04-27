@@ -100,8 +100,8 @@ function drawThat() {
 
 function newLetter() {
 	randomNumber = Math.floor(Math.random() * (letters.length));
-	document.getElementById('letterDisplay').innerHTML = letters[randomNumber];
-	document.getElementById("imageDisplay").src = pic[randomNumber];
+	$('letterDisplay').innerHTML = letters[randomNumber];
+	$("imageDisplay").src = pic[randomNumber];
 };
 
 function pickLetter() {

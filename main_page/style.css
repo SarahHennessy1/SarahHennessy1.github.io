@@ -2,44 +2,65 @@
 body {
 	background-image: url("../main_page/star.gif");
 	font-family: "Benguiat ITC W01 Bold Cn", helvetica, serif;
-
+	overflow: hidden;
 }
 
-div {
+.box {
 	background-color: black;
 	border: white solid .25px;
 	border-radius:2%;
-	margin-top: 40px;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: ;
+	height: 99%;
+}
+
+.row1 {
+	position: absolute;
+	top: 5%;
+
+}
+
+.row2 {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-right: none;
+	padding-right: none;
 }
 
 h1 {
 	color: black;
 	-webkit-text-stroke: 1px red;
-	font-size: 40pt;
+	font-size: 5vw;
 	text-align: center;
-	line-height: 50px;
-	letter-spacing: 3px;
+	line-height: 5%;
+	letter-spacing: 1%;
+	position: absolute;
+	bottom: 1%;
+	right: 50%;
 }
 
-a {
+.list {
 	font-family: itc;
 	text-decoration: none;
 	color: white;
-	line-height: 45px;
-	font-size: 20pt;
-	padding-left: 10%;
-	letter-spacing: 1px;
+	line-height: 140%;
+	font-size: 2.5vw;
+	padding-left: 5%;
+	letter-spacing: 1%;
 }
 
 .film {
-	font-size: 10pt;
+	font-size: 1vw;
 	color:red;
-	float: right;
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
 	margin-right: 5%;
+}
 
+a {
+	text-decoration: none;
 }
 
 @font-face {
