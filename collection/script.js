@@ -22,7 +22,7 @@ $(".blur").on("click", function(){
 
 $("img").on("click", function(){
 	$(this).toggleClass("time");
-	setTimeout(getQuest, 2200);
+	setTimeout(getQuest, 2050);
 });
 
 function getQuest() {
