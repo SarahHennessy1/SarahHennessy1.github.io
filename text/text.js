@@ -89,13 +89,13 @@ var urls = [
 
 
 function newQuote() {
-	randomNumber = Math.floor(Math.random() * (quotes.length));
-	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	$('quoteDisplay').innerHTML = quotes[randomNumber];
 }
 
 function antiQuote() {
 	var randomNumber = Math.floor(Math.random() * (anti.length));
-	document.getElementById('antiDisplay').innerHTML = anti[randomNumber];
+	$('antiDisplay').innerHTML = anti[randomNumber];
 }
 
 function goSomewhere() {
@@ -105,7 +105,7 @@ function goSomewhere() {
 
 function answerQuote() {
 	var match = window.location.hash.match(/^#?(.*)$/)[1];
-	document.getElementById('answerDisplay').innerHTML = answer[match];
+	$('answerDisplay').innerHTML = answer[match];
 }
 
 

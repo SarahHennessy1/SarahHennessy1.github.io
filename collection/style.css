@@ -1,11 +1,12 @@
 body{
 	background-color: rgb(0, 35, 8);
-/*	overflow: hidden;*/
-	margin: auto;
+	overflow: hidden;
 }
 
 p {
-	color: white;
+	color: green;
+	text-align: center;
+	margin: 2%;
 }
 
 .gallery {
@@ -53,43 +54,25 @@ img {
 	top: 25%;
 	left: 25%;
 	z-index: 1000;
+	font-size: 90%;
 }
 
 .reveal {
 	height: auto;
 	max-height: 90vh;
 	position: absolute;
-	top: 5%;
-	left: 10%;
-    margin: 0 auto;
+	top: 2%;
+	left: 15%;
 	z-index: 1000;
-	margin: auto;
 }
 
 .time {
   	transform: rotateY(180deg);
   	transform-style: preserve-3d;
   	transition: all 1.0s linear;
- 	 -webkit-transition-delay: 2s; /* Safari */
+ 	 -webkit-transition-delay: 2s; 
     transition-delay: 1s;
 }
-
-.flip {
-    height: 199px;
-    width: 300px;
-    margin: 0 auto;
-}
-.flip img {
-    width: 300px;
-    height: auto;
-}
-.flip .back {
-    background: #2184cd;
-    color: #fff;
-    text-align: center;
-}
-
-
 
 
 
