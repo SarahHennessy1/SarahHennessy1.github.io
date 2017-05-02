@@ -7,6 +7,7 @@ var planets = "planets/1";
 var url = "https://swapi.co/api/" + people ;
 
 
+
 $.getJSON(url, function(data) { 
 
 	var name = data["name"];
