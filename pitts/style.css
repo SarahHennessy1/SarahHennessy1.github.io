@@ -32,6 +32,18 @@ a {
 	color: black;
 }
 
+img {
+	width: 50%;
+}
+
+.main {
+	float: left;
+	position: absolute;
+	top: 2%;
+	left: 30%;
+	margin-right: 5%;
+}
+
 .hide {
 	display: none;
 	position: absolute;
@@ -53,12 +65,21 @@ a {
 	width: 40%;
 }
 
+.main {
+	left: 40%;
+}
+
 }
 
 @media screen and (max-width: 600px) {
 
 .hover {
 	width: 100%;
+}
+
+.main {
+	left: 10%;
+	top: 70%;
 }
 
 }
