@@ -29,7 +29,7 @@ $(document).ready(function() {
 	$("#answer-target").removeClass("hide")
 	});
 
-	$('reveal').okzoom({
+	$('img').okzoom({
 	  width: 200,
 	  height: 200,
 	  round: true,
