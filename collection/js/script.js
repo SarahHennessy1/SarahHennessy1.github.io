@@ -17,7 +17,7 @@ $(document).ready(function() {
  	});
 
 	$(".blur").on("click", function(){
-	setTimeout(blurThings, 2000);
+	setTimeout(blurThings, 1000);
 	});
 
 	$("img").on("click", function(){
@@ -27,6 +27,14 @@ $(document).ready(function() {
 
 	$(".question").on("click", function(){
 	$("#answer-target").removeClass("hide")
+	});
+
+	$('reveal').okzoom({
+	  width: 200,
+	  height: 200,
+	  round: true,
+	  shadow: "0 0 5px #000",
+	  border: "1px solid black"
 	});
 
 function getQuest() {

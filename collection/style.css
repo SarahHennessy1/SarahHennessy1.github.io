@@ -5,27 +5,37 @@ body{
 
 p {
 	color: green;
+	font-size: 3vw;
 	text-align: center;
 	margin: 2%;
 }
 
 .gallery {
-	position: relative;
-	top: 2%;
-	float: left;
-	margin-left: 5%;
-	margin-bottom: 1%;
-/*  	perspective: 1000;*/
+	margin-left: 7%;
+	margin-top: 2%;
+}
+
+.row {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin: -1%;
+}
+
+.row:img {
+	width: 80%;
+	vertical-align: top;
 }
 
 img {
-	height: 20%;
+	max-width: 80%;
+	margin: 3%;
 }
 
-.pick {
-	height: 30%;
+/*.pick {
+	width: 20%;
 }
-
+*/
 .blur {
 	float: left;
 	position: absolute;

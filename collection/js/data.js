@@ -187,6 +187,10 @@ var newQuestions = [
                   "question" : "What concert did Margaret attend while pregnant with Nicole?",
                   "answer" : "The Rolling Stones",
                 },
+                {
+                  "question" : "What is Tom's middle name?",
+                  "answer" : "Joseph",
+                },
                 
 
                 ];
