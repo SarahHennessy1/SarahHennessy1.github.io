@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-// var randomNumber = Math.floor(Math.random() * (newQuestions.length));
-
-
 	$("img").on("mouseenter", function(){
 	$(this).addClass("pick");
 	});
@@ -29,13 +26,13 @@ $(document).ready(function() {
 	$("#answer-target").removeClass("hide")
 	});
 
-	$('img').okzoom({
-	  width: 200,
-	  height: 200,
-	  round: true,
-	  shadow: "0 0 5px #000",
-	  border: "1px solid black"
-	});
+	// $('img').okzoom({
+	//   width: 200,
+	//   height: 200,
+	//   round: true,
+	//   shadow: "0 0 5px #000",
+	//   border: "1px solid black"
+	// });
 
 function getQuest() {
 	$(".reveal").addClass("hide");

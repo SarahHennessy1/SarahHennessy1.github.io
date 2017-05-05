@@ -261,9 +261,6 @@ var oldQuestions = [
                   "answer" : "St. Bonaventure",
                 },
                 
-                
-                
-
                 ];
 
 // var the_images = [

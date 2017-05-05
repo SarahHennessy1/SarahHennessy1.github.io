@@ -11,6 +11,7 @@ h1 {
 
 .list {
 	margin-left: 5%;
+	position: fixed;
 }
 
 h2 {
