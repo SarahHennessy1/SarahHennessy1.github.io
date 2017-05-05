@@ -38,15 +38,15 @@ $(document).ready(function() {
 
 	};
 
-	var team = 0;
+	// var team = 0;
 
-	for ( var i = 0; i <= 26; i++) {
-		$("div").append( names[i];);
-		team++;
-		if (team>=4) {
-			team = 0
-		};
-	};
+	// for ( var i = 0; i <= 26; i++) {
+	// 	$("div").append(names[i)];);)
+	// 	team++;
+	// 	if (team>=4) {
+	// 		team = 0
+	// 	};
+	// };
 
 	$("div").on("mouseenter", function(){
 		$(this).addClass("pick");
