@@ -20,33 +20,90 @@ $(document).ready(function() {
 	}
 
 	function pickNames() {
-		var randomNumber = Math.floor(Math.random() * (names.length)); 
-		if (randomNumber > 21) {randomNumber = 0;}
-
-		console.log(randomNumber);
-		$(".nameDisplay").html(names[randomNumber++]);
-		console.log(randomNumber);
-		$(".nameDisplay1").html(names[randomNumber++]);
-		console.log(randomNumber);
-		$(".nameDisplay2").html(names[randomNumber++]);
-		console.log(randomNumber);
-		$(".nameDisplay3").html(names[randomNumber++]);
-		console.log(randomNumber);
-		$(".nameDisplay4").html(names[randomNumber++]);
-		console.log(randomNumber);
-		$(".nameDisplay5").html(names[randomNumber++]);
-
+		for ( var i = 0; i <= 4; i++) {
+			$(".team0").append(names[i]);
+			names = jQuery.grep(names, function(value) {
+  			return value != names[i];
+			});
+		$(".team1").append(names[i]);
+			names = jQuery.grep(names, function(value) {
+  			return value != names[i];
+			});
+		$(".team2").append(names[i]);
+			names = jQuery.grep(names, function(value) {
+  			return value != names[i];
+			});
+		$(".team3").append(names[i]);
+			names = jQuery.grep(names, function(value) {
+  			return value != names[i];
+			});
+		$(".team4").append(names[i]);
+		};
 	};
 
-	// var team = 0;
+	function scoreBoard() {
+		// $("div").addClass("game");
+		$(".target").removeClass("hide");
+		$(".output").removeClass("hide");
+	};
 
-	// for ( var i = 0; i <= 26; i++) {
-	// 	$("div").append(names[i)];);)
-	// 	team++;
-	// 	if (team>=4) {
-	// 		team = 0
-	// 	};
-	// };
+	function addPoints() {
+
+		var points0 = 0;
+		$("#team0").html(points0);
+		$("#add0").on("click", function(){
+		points0++;
+		$("#team0").html(points0);
+		});
+		$("#min0").on("click", function(){
+		points0--;
+		$("#team0").html(points0);
+		});
+
+		var points1 = 0;
+		$("#team1").html(points1);
+		$("#add1").on("click", function(){
+		points1++;
+		$("#team1").html(points1);
+		});
+		$("#min1").on("click", function(){
+		points1--;
+		$("#team1").html(points1);
+		});
+
+		var points2 = 0;
+		$("#team2").html(points2);
+		$("#add2").on("click", function(){
+		points2++;
+		$("#team2").html(points2);
+		});
+		$("#min2").on("click", function(){
+		points2--;
+		$("#team2").html(points2);
+		});
+
+		var points3 = 0;
+		$("#team3").html(points3);
+		$("#add3").on("click", function(){
+		points3++;
+		$("#team3").html(points3);
+		});
+		$("#min3").on("click", function(){
+		points3--;
+		$("#team3").html(points3);
+		});
+
+		var points4 = 0;
+		$("#team4").html(points4);
+		$("#add4").on("click", function(){
+		points4++;
+		$("#team4").html(points4);
+		});
+		$("#min4").on("click", function(){
+		points4--;
+		$("#team4").html(points4);
+		});
+	};
 
 	$("div").on("mouseenter", function(){
 		$(this).addClass("pick");
@@ -56,37 +113,43 @@ $(document).ready(function() {
 		$(this).removeClass("pick");
 	});
 
+	// $('.target0, .output1, .output2, .output3,').click(function() {
+ //    $('.output0, .output1, .output2, .output3,').html(function(i, val) { return val*1+1 });
+	// });
+
 	var names = [
 		"John",
-		"Chris",
-		"Johnny",
-		"Malancha",
-		"Peter",
-		"Greg",
-		"Tom",
-		"Kendra",
-		"Sarah",
-		"Sammy",
-		"Shea",
-		"Margaret",
-		"LJ",
-		"Nicole",
-		"Jessica",
-		"Mart",
-		"Katie",
-		"Jim",
-		"Patti",
-		"Andrew",
-		"Shannon", 
-		"Mary",
-		"Joe",
-		"Josh",
-		"Kelso",
-		"Alyssa",
+		"Chris ",
+		"Johnny ",
+		"Malancha ",
+		"Peter ",
+		"Greg ",
+		"Tom ",
+		"Kendra ",
+		//"Sarah ",
+		"Sammy ",
+		"Shea ",
+		"Margaret ",
+		"LJ ",
+		"Nicole ",
+		"Jessica ",
+		"Mart ",
+		"Katie ",
+		"Jim ",
+		"Patti ",
+		"Andrew ",
+		"Shannon ", 
+		"Mary ",
+		"Joe ",
+		"Josh ",
+		"Kelso ",
+		"Alyssa ",
 	];
 
 	names = shuffle(names);
 
-	setTimeout(pickNames, 200);
+	addPoints();
+	setTimeout(pickNames, 1000);
+	setTimeout(scoreBoard,4000);
 
 });

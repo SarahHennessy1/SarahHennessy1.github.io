@@ -9,28 +9,50 @@ body {
 	margin-top: 2%;
 }
 
-div {
+.box {
 	background-color: rgb(6, 122, 21);
 	height: 40%;
 	width: 30%;
 	margin: 1%;
 	float: left;
-}
-
-p {
 	color: white;
 	font-size: 3vw;
-	margin: 5%;
 }
+
+.output, button, #add0 {
+	position: relative;
+	top: 0%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 1%;
+}
+
+/*p {
+	margin: 5%;
+}*/
 
 .pick {
 	background-color: rgb(4, 158, 25);
 }
 
-.game {
+/*.game {
 	background-color: rgb(4, 158, 25);
 	width: 90%;
-	height: 13%;
+	height: 15%;
 	margin: auto;
 	margin-bottom: 2%;
 }
+*/
+
+.hide {
+	display: none;
+}
+
+
+
+
+
+
+
+
+

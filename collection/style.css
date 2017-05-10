@@ -7,35 +7,27 @@ p {
 	color: green;
 	font-size: 3vw;
 	text-align: center;
-	margin: 2%;
+	margin: 5%;
 }
 
-.gallery {
-	margin-left: 7%;
-	margin-top: 2%;
-}
-
-.row {
-	width: 25%;
-	display: inline-block;
-	vertical-align: top;
-	margin: -1%;
-}
-
-.row:img {
-	width: 80%;
-	vertical-align: top;
+#imageContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 img {
-	max-width: 80%;
-	margin: 3%;
+	width: 23%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 1%;
 }
 
-/*.pick {
-	width: 20%;
+.pick {
+	opacity: 0.75;
 }
-*/
+
 .blur {
 	float: left;
 	position: absolute;
@@ -52,11 +44,6 @@ img {
 }
 
 .question {
-/*	fill: white;
-    overflow: hidden;
-    height: 100%;
-	border: red 2px solid;
-	z-index: 2;*/
 	background: white;
 	width: 50%;
 	height: 50%;
@@ -68,20 +55,28 @@ img {
 }
 
 .reveal {
-	height: auto;
-	max-height: 90vh;
+	height: 9%;
+	width: auto;
 	position: absolute;
-	top: 2%;
-	left: 15%;
+	top: 0%;
+	left: 18%;
 	z-index: 1000;
 }
 
 .time {
-  	transform: rotateY(180deg);
+/*  	transform: rotateY(180deg);
   	transform-style: preserve-3d;
   	transition: all 1.0s linear;
  	 -webkit-transition-delay: 2s; 
-    transition-delay: 1s;
+    transition-delay: 1s;*/
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+#time {
+	position: absolute;
+	top: 80%;
+	right: 5%;
 }
 
 

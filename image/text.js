@@ -72,7 +72,7 @@ var pic = [
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * pic.length);
-     document.getElementById("myPicture").src = pic[randomNum];
+     $("myPicture").src = pic[randomNum];
 }
 
 
