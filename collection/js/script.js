@@ -29,40 +29,39 @@ $(document).ready(function() {
 	  return array;
 	}
 
-	function startTimer(duration, display) {
-    var timer = duration, seconds;
-    setInterval(function () {
-        seconds = parseInt(timer % 60, 10);
+	// function startTimer(duration, display) {
+ //    var timer = duration, seconds;
+ //    setInterval(function () {
+ //        seconds = parseInt(timer % 60, 10);
 
-        seconds = seconds < 10 ? "0" + seconds : seconds;
+ //        seconds = seconds < 10 ? "0" + seconds : seconds;
 
-        display.text(seconds);
+ //        display.text(seconds);
 
-       		 if (--timer < 0) {
-       		 timer = seconds;
-       		 display.text(seconds);
-        	}
-    	}, 1000);
-	}
+ //       		 if (--timer < 0) {
+ //       		 timer = seconds;
+ //       		 display.text(seconds);
+ //        	}
+ //    	}, 1000);
+	// }
 
-	function theTime() {
-    	var questionTime = 60 * .5,
-        display = $('#time');
-    	startTimer(questionTime, display);
-		};
+	// function theTime() {
+ //    	var questionTime = 60 * .5,
+ //        display = $('#time');
+ //    	startTimer(questionTime, display);
+	// 	};
 
 	function getQuest() {
 		$(".reveal").addClass("hide");
 		$(".question").removeClass("hide");
 		$("#answer-target").addClass("hide");
-		theTime();
-		$("#time").removeClass("hide");
+		// theTime();
+		// $("#time").removeClass("hide");
 		setTimeout(timerStuff, 30000);
 	};
 
 	function timerStuff() {
 		$("#answer-target").removeClass("hide");
-        $("#time").addClass("hide");
 	};
 
 	function blurThings() {

@@ -113,10 +113,6 @@ $(document).ready(function() {
 		$(this).removeClass("pick");
 	});
 
-	// $('.target0, .output1, .output2, .output3,').click(function() {
- //    $('.output0, .output1, .output2, .output3,').html(function(i, val) { return val*1+1 });
-	// });
-
 	var names = [
 		"John",
 		"Chris ",
