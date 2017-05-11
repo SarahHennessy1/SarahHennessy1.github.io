@@ -2,6 +2,7 @@ html {
 	padding: 0%;
 	margin: 0%;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 body {
@@ -19,17 +20,35 @@ body {
 	font-size: 3vw;
 }
 
-.output, button, #add0 {
+.team0, .team1, .team2, .team3, .team4 {
 	position: relative;
-	top: 0%;
-	float: right;
+	top: -90%;
+	line-height: 150%;
+
+}	
+
+#team0, #team1, #team2, #team3, #team4 {
+	position: relative;
+	top: 60%;
+	float: left;
 	margin-right: 5%;
-	margin-top: 1%;
 }
 
-/*p {
-	margin: 5%;
-}*/
+#add0, #add1, #add2, #add3, #add4 {
+	position: relative; 
+	left: 71.5%;
+	top: 35%;
+}
+
+#min0, #min1, #min2, #min3, #min4  {
+	position: relative; 
+	top: 20%;
+	left: 81.5%;
+}
+
+p {
+	margin-left: 5%;
+}
 
 .pick {
 	background-color: rgb(4, 158, 25);
@@ -46,6 +65,40 @@ body {
 
 .hide {
 	display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+	.box {
+		height: 17%;
+		width: 90%;
+	}
+
+	.team0, .team1, .team2, .team3, .team4 {
+		top: -70%;
+		line-height: 150%;
+	}	
+
+	#team0, #team1, #team2, #team3, #team4 {
+		float: right;
+		top: -20%;
+		right: 5%;
+		margin-right: 5%;
+		font-size: 7vw;
+	}
+
+	#add0, #add1, #add2, #add3, #add4 {
+		position: relative; 
+		left: 90%;
+		top: 0%;
+	}
+
+	#min0, #min1, #min2, #min3, #min4  {
+		position: relative; 
+		top: -10%;
+		left: 90%;
+	}
+
 }
 
 

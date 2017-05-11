@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var container = document.getElementById('imageContainer');
 	var docFrag = document.createDocumentFragment();
 
-	imgs = shuffle(imgs);
+	// imgs = shuffle(imgs);
 
 	imgs.forEach(function(url, index, originalArray) {
     	var img = document.createElement('img');
@@ -39,7 +39,8 @@ $(document).ready(function() {
         display.text(seconds);
 
        		 if (--timer < 0) {
-            startTimer(questionTime, display);
+       		 timer = seconds;
+       		 display.text(seconds);
         	}
     	}, 1000);
 	}
@@ -57,7 +58,6 @@ $(document).ready(function() {
 		theTime();
 		$("#time").removeClass("hide");
 		setTimeout(timerStuff, 30000);
-		setTimeout(updateQuote, 250);
 	};
 
 	function timerStuff() {
@@ -71,13 +71,13 @@ $(document).ready(function() {
 		$(".blur").toggleClass("hide");
 	};
 
-	function updateQuote() {	
+	// function updateQuote() {
 
-		var orderNumber = 3;
+	// 	// var orderNumber = Math.floor(Math.random() * 64);
 
-		$("#question-target").html(newQuestions[orderNumber]["question"]);
-		$("#answer-target").html(newQuestions[orderNumber]["answer"]);
-	};
+	// 	$("#question-target").html(newQuestions[orderNumber]["question"]);
+	// 	$("#answer-target").html(newQuestions[orderNumber]["answer"]);
+	// };
 
 	$("img").on("mouseenter", function(){
 	$(this).addClass("pick");
@@ -90,7 +90,11 @@ $(document).ready(function() {
 	$("img").on("click", function(){
 	$(this).addClass("reveal");
  	$(".blur").removeClass("hide");
+ 	var orderNumber = $(this).index();
+ 	$("#question-target").html(newQuestions[orderNumber]["question"]);
+	$("#answer-target").html(newQuestions[orderNumber]["answer"]);
  	});
+
 
 	$(".blur").on("click", function(){
 	setTimeout(blurThings, 0);
