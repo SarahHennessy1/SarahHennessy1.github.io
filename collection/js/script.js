@@ -105,7 +105,7 @@ $(document).ready(function() {
 	setTimeout(getQuest, 200);
 	});
 
-	$("#time").on("click", function(){
+	$(".question").on("click", function(){
 	$("#answer-target").removeClass("hide");
 	});
 
